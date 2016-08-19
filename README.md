@@ -1,4 +1,7 @@
-### **Introduction**
+Mystic Mirror
+======
+
+## **Introduction**
 
 I am the guy that:
 
@@ -14,11 +17,8 @@ In short, my morning routine is a mess (#firstworldproblems). An Amazon Echo (or
 
 60% of my morning routine is centered in and around the bathroom or bedroom, so I decided to build an Alexa skill and Alexa Voice Service-enabled magic mirror – which I&#39;ve titled  **the Mystic Mirror**.
 
-Overview of the Mystic Mirror project
 
-Note - I also created a few &quot;bolt on&quot; skills, that can work stand alone or with the Mystic Mirror. The first I&#39;ve successfully published in the &quot; **Black History Facts**&quot; skill ( [http://alexa.amazon.com/spa/index.html#skills/dp/B01JL5H21O](http://alexa.amazon.com/spa/index.html#skills/dp/B01JL5H21O))
-
-### **Overview**
+## **Overview**
 
 A Magic Mirror is a Raspberry Pi device connected to a monitor fronted by a two way mirror. This gives the illusion that the text/words/images appear from the mirror (similar to the  [Magic Mirror](https://www.youtube.com/watch?v=C6AMBBozEqI) in _Snow White and the Seven Dwarfs_). People have been making magic mirrors for years; lately there have been some that are enabled with Alexa (or other voice activated services). I wanted to make my Mystic Mirror a step further by adding a few features, such as:
 
@@ -32,7 +32,7 @@ A Magic Mirror is a Raspberry Pi device connected to a monitor fronted by a two 
 
 - Leverage Alexa to extend functionality of a typical magic mirror. For example, most magic mirrors have the location &quot;hard coded&quot; into code on the Raspberry Pi. I wanted to provide flexibility to get things (like weather) for any requested location.
 
-### **What the Mystic Mirror Can Do**
+## **What the Mystic Mirror Can Do**
 
 Detailed walkthrough of the Mystic Mirror functionality
 
@@ -118,11 +118,11 @@ I also added a few Easter eggs:
 
 - A response (when asked, how do I look) from a  [really, really, really ridiculously good looking model](https://www.youtube.com/watch?v=NHHEcmZtJvY)
 
-### **Alexa Skills Kit Code**
+## **Alexa Skills Kit Code**
 
 The next section provides an overview of the code that runs the Mystic Mirror. Jump to the &quot;Build Your Own&quot; section for details on how to install the code and build your own Mystic Mirror.
 
-**Authentication (get\_profile function)**
+# **Authentication (get\_profile function)**
 
 I needed a mechanism to identify the user. I first planned to build my own, but instead decided to leverage Google&#39;s OAUTH service. This was a logical choice, as I plan to display (at a later point in time) the calendar details and task lists for a user.
 
