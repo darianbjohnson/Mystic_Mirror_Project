@@ -122,7 +122,7 @@ I also added a few Easter eggs:
 
 The next section provides an overview of the code that runs the Mystic Mirror. Jump to the &quot;Build Your Own&quot; section for details on how to install the code and build your own Mystic Mirror.
 
-# **Authentication (get\_profile function)**
+# Authentication (get\_profile function)
 
 I needed a mechanism to identify the user. I first planned to build my own, but instead decided to leverage Google&#39;s OAUTH service. This was a logical choice, as I plan to display (at a later point in time) the calendar details and task lists for a user.
 
@@ -130,7 +130,7 @@ When the user asks to &quot;set a default location&quot;, the user id and provid
 
 The user id was also saved in second DynamoDB table for the purpose of routing the message to the correct IOT device (more on this later on).
 
-**APIs and other functionality executed in the Lambda code**
+## APIs and other functionality executed in the Lambda code
 
 The following public APIs were used to build the functionality:
 
