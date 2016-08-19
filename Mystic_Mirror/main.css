@@ -1,0 +1,298 @@
+html {
+  cursor: none;
+  overflow:hidden;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+  margin: 60px;
+  position: absolute;
+  height: calc(100% - 120px);
+  width: calc(100% - 120px);
+  background: #000;
+  color: #aaa;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+li{
+	margin: 0 0 3px 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/**
+ * Default styles.
+ */
+
+.dimmed {
+  color: #666;
+}
+
+.normal {
+  color: #999;
+}
+
+.bright {
+  color: #fff;
+}
+
+.xsmall {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.small {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.medium {
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.large {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+}
+
+.thin {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+.light {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+header {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Roboto Condensed";
+  font-weight: 400;
+  border-bottom: 1px solid #666;
+  line-height: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 50%;
+}
+
+
+
+
+div.main {
+    height: 400px;
+    width: 600px;
+    background-color: blue;
+}
+
+div.icon{
+
+	position: absolute;
+    bottom: 50;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+
+div.location {
+    font-size:large;
+	display:table;
+}
+
+div.description {
+	display:table-cell;
+	vertical-align:middle;	
+	style="height: 64px;"
+	font-size: 100px;
+}
+
+table.weather{
+	border-collapse: collapse;
+}
+
+td.weather-loc{
+	border-bottom: 1px solid #aaa;
+	font-size: medium;
+	vertical-align: baseline;
+	padding: 0px;
+	line-height: 150%;
+}
+
+td.weather-time{
+	border-bottom: 1px solid #aaa;
+	font-size: medium;
+	vertical-align: baseline;
+	width: 125px;
+	padding: 0px;
+	line-height: 150%;
+}
+
+td.weather-temp{
+	font-size: 60px;
+	vertical-align: middle;
+	padding: 5px;
+	width: 150px;
+	height: 100px;
+	text-align: center;
+	line-height: 30%;
+}
+
+td.weather-desc{
+	font-size: 16px;
+	vertical-align: middle;
+	padding: 0px;
+	text-align: center;
+}
+
+td.weather-forecast{
+	font-size: 16px;
+	vertical-align: middle;
+	padding: 5px;
+	text-align: left;
+}
+
+table.traffic{
+	border-collapse: collapse;
+}
+
+td.traffic-list{
+	font-size: 23px;
+	vertical-align: top;
+	padding: 5px;
+	text-align: left;
+	line-height: 1.2;
+}
+
+td.traffic-image{
+	font-size: 15px;
+	vertical-align: middle;
+	padding: 5px;
+	text-align: center;
+}
+
+td.message_to{
+	border-bottom: 1px solid #aaa;
+	font-size: medium;
+	vertical-align: baseline;
+	padding: 0px;
+	width: 200px;
+}
+
+td.message{
+	font-size: 24px;
+	vertical-align: center;
+	padding: 0px;
+	width: 250px;
+	text-align: left;
+	line-height: 1.0;
+}
+
+td.message_img{
+	font-size: 26px;
+	vertical-align: center;
+	padding: 0px;
+	width: 128px;
+	text-align: left;
+}
+
+td.news_image{
+	padding: 5px;
+}
+
+td.news_headline{
+	border-bottom: 2px solid #aaa;
+	vertical-align: text-bottom;
+	padding: 0px;
+	font-size: 25px;
+	line-height: 120%;
+	font: bold;
+}
+
+td.news_details{
+	font-size: 20px;
+	line-height: 110%;
+	vertical-align: middle;
+	padding: 15px;
+}
+
+td.inspiration_quote{
+	padding: 10px;
+	font-size: xlarge;
+}
+
+td.inspiration_name{
+	font-size: xlarge;
+	padding: 10px;
+	text-align:left;
+}
+
+td.time_time{
+	font-size: 80px;
+	text-align:left;
+	line-height: 110%;
+}
+
+td.time_day_date{
+	font-size: 40px;
+	text-align:left;
+}
+
+.verticalLine {
+    border-left: thick solid #ff0000;
+}
+
+div.teeth {
+    position: fixed;
+    bottom: 55px;
+    right: 5px;
+	font-size: 60px;
+}
+
+
+div.reminder{
+    position: fixed;
+    bottom: 55px;
+    left: 5px;
+	font-size: 20px;
+}

@@ -1,0 +1,103 @@
+addcontactname add {Name} to contacts
+addcontactname save {Name} as a contact
+addcontactnumber {InputNumber}
+sms tell {Name} to {wake up|Message}
+sms tell {Name} that {we are leaving in ten minutes|Message}
+sms tell {Name} to {come here|Message}
+sms tell {Name} to {come downstairs|Message}
+sms tell {Name} to {do your chores|Message}
+sms tell {Name} to {come home now|Message}
+sms tell {Name} that {dinner is ready|Message}
+sms tell {Name} to {go to bed|Message}
+sms tell {Name} {good morning|Message}
+sms tell {Name} {good night|Message}
+sms tell {Name} {I love you|Message}
+snowwhite on the wall who is the fairest one of all
+snowwhite on the wall who is the fairest of them all
+snowwhite on the wall who's the fairest of them all
+rightsaidfred am I too sexy for this shirt
+zoolander how do I look
+weather what is the weather for {City} {State}
+weather what is the weather for {City}
+weather what is the weather in {City} {State}
+weather what is the weather in {City}
+weather what is the weather {City} {State}
+weather what is the weather {City}
+weather what is the weather
+weather for the weather for {City} {State}
+weather for the weather for {City}
+weather for the weather in {City} {State}
+weather for the weather in {City}
+weather for the weather {City} {State}
+weather for the weather {City}
+weather for the weather
+weather to tell me the weather for {City} {State}
+weather to tell me the weather for {City}
+weather to tell me the weather in {City} {State}
+weather to tell me the weather in {City}
+weather to tell me the weather
+YesNoIntent {YesNo}
+location set my default location
+location set my default location {City} {State}
+location set my default location as {City} {State}
+location set my default location to {City} {State}
+location save my default location
+location save my default location {City} {State}
+location save my default location as {City} {State}
+location save my default location to {City} {State}
+city_prompt {City}
+state_prompt {State}
+traffic how bad is traffic
+traffic what is traffic like
+traffic for the traffic
+gettime for the time
+gettime what time is it
+gettime what is the time
+gettime tell me the time
+takeselfie take a selfie
+sendselfie_publish {Name}
+news what are todays headlines
+news what is todays news
+news tell me the news
+news for the news
+inspiration tell me an inspirational quote
+inspiration tell me an inspirational saying
+inspiration tell me something inspirational
+inspiration inspire me
+CustomHelp what can I ask you
+CustomHelp can I ask
+AMAZON.HelpIntent get help
+AMAZON.HelpIntent what do you do
+CustomHelp help
+CustomHelp for help
+CustomHelp how can I use you
+CustomHelp can I use
+CustomHelp can I use
+CustomHelp {Ask}
+AMAZON.HelpIntent help me
+CustomCancel cancel
+CustomCancel never mind
+CustomCancel forget it
+AMAZON.StopIntent leave
+AMAZON.StopIntent quit
+AMAZON.StopIntent bye
+AMAZON.StopIntent good bye
+AMAZON.StopIntent stop
+AMAZON.StopIntent enough
+AMAZON.StopIntent please stop
+show can you show the screen again
+show I missed that
+show show that again
+teeth start teeth timer
+teeth brushing teeth
+remind_me remind me to {take my medicine|Reminder}
+remind_me remind me to {take out the trash|Reminder}
+remind_me remind me to {call home|Reminder}
+remind_me remind me to {set the alarm|Reminder}
+remind_me_day {Day}
+remind_me_time {Time}
+remind_me_freq {Freq}
+clear_reminders clear reminders
+clear_reminders remove reminders
+delete_reminders {InputNumber}
+delete_reminders delete reminders

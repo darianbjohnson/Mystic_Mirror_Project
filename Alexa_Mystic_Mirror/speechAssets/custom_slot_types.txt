@@ -1,0 +1,19 @@
+
+#CUSTOM_ASK is the Type, the values are 'what can I ask you' and 'what do you do'
+CUSTOM_ASK	
+
+what can I ask you
+what do you do
+
+
+#Frequency is the Type, the values are 'daily', 'weekly' and 'single'
+Frequency	
+daily
+weekly
+single	
+
+#YesNo is the Type, the values are 'yes' and 'no'
+YesNo	
+
+yes
+no

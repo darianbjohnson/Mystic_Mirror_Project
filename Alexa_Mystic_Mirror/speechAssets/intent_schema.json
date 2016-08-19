@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "intent": "sms",
+      "slots": [
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME"
+        },
+        {
+          "name": "Message",
+          "type": "AMAZON.LITERAL"
+        }
+       ]
+    },
+    {"intent": "addcontactname",
+      "slots": [
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+       ]
+    },
+    {"intent": "addcontactnumber",
+      "slots": [
+        {
+          "name": "InputNumber",
+          "type": "AMAZON.NUMBER"
+        }
+       ]
+    },
+    {
+      "intent": "traffic"
+    },
+    {
+      "intent": "snowwhite"
+    },
+    {
+      "intent": "rightsaidfred"
+    }  ,
+    {
+      "intent": "zoolander"
+    }, 
+    {
+      "intent": "gettime"
+    }, 
+    {
+      "intent": "news"
+    }, 
+    {
+      "intent": "takeselfie"
+    },    
+    {
+      "intent": "inspiration"
+    }, 
+    {"intent": "sendselfie_publish",
+      "slots": [
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME"
+        }
+       ]
+    },
+    {
+      "intent": "commute"
+    },
+    {
+      "intent": "show"
+    },
+     {
+      "intent": "teeth"
+    },
+    {
+      "intent": "remind_me",
+      "slots": [
+        {
+          "name": "Reminder",
+          "type": "AMAZON.LITERAL"
+        }
+       ]
+    },
+    {
+      "intent": "remind_me_freq",
+      "slots": [
+        {
+          "name": "Freq",
+          "type": "Frequency"
+        }
+       ]
+    },
+    {
+      "intent": "remind_me_day",
+      "slots": [
+        {
+          "name": "Day",
+          "type": "AMAZON.DATE"
+        }
+       ]
+    },
+    {
+      "intent": "remind_me_time",
+      "slots": [
+        {
+          "name": "Time",
+          "type": "AMAZON.TIME"
+        }
+       ]
+    },            
+    {
+      "intent": "clear_reminders"
+    },
+        {
+      "intent": "delete_reminders",
+      "slots": [
+        {
+          "name": "InputNumber",
+          "type": "AMAZON.NUMBER"
+        }
+       ]
+    },            
+    {
+      "intent": "weather",
+      "slots": [
+       {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "State",
+          "type": "AMAZON.US_STATE"
+        }
+      ]},
+        {
+      "intent": "location",
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        },{
+          "name": "State",
+          "type": "AMAZON.US_STATE"
+        }
+      ]
+    },
+    {
+      "intent": "state_prompt",
+      "slots": [
+        {
+          "name": "State",
+          "type": "AMAZON.US_STATE"
+        }
+      ]
+    },
+     {
+      "intent": "city_prompt",
+      "slots": [
+        {
+          "name": "City",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    },
+    {
+      "intent": "YesNoIntent",
+      "slots": [
+        {
+          "name": "YesNo",
+          "type": "YesNo"
+        }
+      ]
+    }, {
+      "intent": "CustomHelp", 
+          "slots": [
+        {
+          "name": "Ask",
+          "type": "CUSTOM_ASK"
+        }
+      ]
+    },{
+      "intent": "CustomCancel"
+    },
+        {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
